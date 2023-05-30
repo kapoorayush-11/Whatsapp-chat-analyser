@@ -27,7 +27,7 @@ if uploaded_file is not None:
     
     
     #Let's add a button to show analysis
-    if st.sidebar.button('Kowalski, Analysis'):
+    if st.sidebar.button('Show Analysis'):
         
         num_messages,words,num_media_msg,num_links = helper.fetch_stats(selected_user,df)
         
